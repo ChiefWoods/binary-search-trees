@@ -1,0 +1,12 @@
+{
+  "name": "binary-search-trees",
+  "version": "1.0.0",
+  "description": "Data structure for The Odin Project",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ChiefWoods",
+  "license": "ISC"
+}
