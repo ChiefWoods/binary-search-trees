@@ -89,6 +89,8 @@ export default class Tree {
         previous.left = temp.right;
         if (targetParent) {
           targetParent.value > value ? targetParent.left = temp : targetParent.right = temp;
+        } else {
+          this.root = temp;
         }
         temp.left = target.left;
         temp.right = target.right;
